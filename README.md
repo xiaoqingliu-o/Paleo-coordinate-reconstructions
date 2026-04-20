@@ -32,10 +32,10 @@ https://www.gplates.org/docs/pygplates/
 ## Input Data Format
 
 CSV files in `test_dataset/` **must strictly follow** this structure:
-First column: site name  
-Second column: modern longitude
-Third column: modern latitidue
-Fourth column:  Reconstruction time (millions of years)
+- First column: site name  
+- Second column: modern longitude
+- Third column: modern latitidue
+- Fourth column:  Reconstruction time (millions of years)
 
 | Site | Longitude | Latitude | Age (Ma) |
 |--------|----------|---------------|---------------|
@@ -57,7 +57,7 @@ the appropriate source depending on the rotation model used:
     https://doi.org/10.1002/gdj3.146
 
 -   Müller et al. (2019)\
-    * A global plate model including lithospheric deformation along major rifts and orogens since the Triassic.*\
+    *A global plate model including lithospheric deformation along major rifts and orogens since the Triassic.*\
     Tectonics.\
     https://doi.org/10.1029/2018TC005462
 
