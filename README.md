@@ -54,11 +54,11 @@ the following:
 -   Zahirovic et al. (2022)\
     *Subduction kinematics and carbonate platform interactions.*\
     Geoscience Data Journal.\
-    https://doi.org/10.1002/gdj3.146
+    https://doi.org/10.1002/gdj3.146\
 
-- Zahirovic et al. (2022) rotation file is obtained from https://doi.org/10.5281/zenodo.13899315. \
-  This link also provides static polygon files (*.shp), but they’re not in the gpmlz format. \
-  The *.gpmlz file is obtained by converting the *.shp file using the GPlates application. 
+Zahirovic et al. (2022) rotation file in `GPlates_features/Rotations/` is obtained from https://doi.org/10.5281/zenodo.13899315. \
+This link also provides static polygon files (*.shp), but they’re not in the gpmlz format. \
+The *.gpmlz file is obtained by converting the *.shp file using the GPlates application. 
 
 ------------------------------------------------------------------------
 
