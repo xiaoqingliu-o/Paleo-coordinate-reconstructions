@@ -1,3 +1,18 @@
+"""
+Input: 
+  - input_path   (input csv file)
+  - rotation_path  (rotation file)
+  - polygon_path    (static polygon file)
+  - anchor_plate_id 
+  
+Rotation file: Zahirovic_et al. (2022)
+Africa-fixed reference frame. Africa stays stationary, and all other plates move relative to Africa.
+Plate 701 = African Plate; anchor_plate_id = 701, 
+
+Output:
+  - output paleo coordinates in a csv file
+
+"""
 import pygplates
 import pandas as pd
 import numpy as np
