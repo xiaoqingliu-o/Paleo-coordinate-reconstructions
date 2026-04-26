@@ -31,7 +31,7 @@ https://www.gplates.org/docs/pygplates/
 
 ## Input Data Format
 
-CSV files in `test_dataset/` **must strictly follow** this structure:
+CSV files in `test_dataset/` **must follow** this structure:
 - First column: site name  
 - Second column: modern longitude
 - Third column: modern latitidue
@@ -58,7 +58,7 @@ the following:
 
 Zahirovic et al. (2022) rotation file in `GPlates_features/Rotations/` is obtained from https://doi.org/10.5281/zenodo.13899315. \
 This link also provides static polygon files (*.shp), but they’re not in the gpmlz format. \
-The *.gpmlz file is obtained by converting the *.shp file using the GPlates application. 
+The *.gpmlz file `GPlates_features/StaticPolygons/`is obtained by converting the *.shp file using the GPlates application. 
 
 ------------------------------------------------------------------------
 
