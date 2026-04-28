@@ -64,6 +64,8 @@ The *.gpmlz file in `GPlates_features/StaticPolygons/`is obtained by converting 
     *Global continental and ocean basin reconstructions since 200 Ma.*\
     Earth-Science Reviews.\
     https://doi.org/10.1016/j.earscirev.2012.03.002\
+    
+Seton et al. (2012) rotation and static polygon files are obtained from https://doi.org/10.5281/zenodo.10596050.
 
 ------------------------------------------------------------------------
 
