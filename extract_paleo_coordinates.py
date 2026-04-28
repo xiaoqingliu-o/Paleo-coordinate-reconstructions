@@ -5,9 +5,11 @@ Input:
   - polygon_path    (static polygon file)
   - anchor_plate_id 
   
-Rotation file: Zahirovic_et al. (2022)
-Africa-fixed reference frame. Africa stays stationary, and all other plates move relative to Africa.
-Plate 701 = African Plate; anchor_plate_id = 701, 
+Rotation model Zahirovic_et al. (2022) provides global plate reconstructions with multiple absolute reference frames. 
+These are selected via the anchor plate ID, including an optimized mantle reference frame (0), a no-net-rotation frame (777777), and a paleomagnetic reference frame (701701).
+This script uses 701701, which places the reconstruction in a paleomagnetic reference frame based on Merdith et al. (2021). This frame is tied to Earth’s spin axis 
+and is therefore preferred for recovering accurate paleolatitudes, which is important for paleoclimate applications.
+
 
 Output:
   - output paleo coordinates in a csv file
@@ -18,7 +20,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-def reconstruct_paleo_coordinates(input_path, rotation_path, polygon_path, anchor_plate_id=701):
+def reconstruct_paleo_coordinates(input_path, rotation_path, polygon_path, anchor_plate_id=701701):
     input_path = Path(input_path)
     if not input_path.exists():
         print(f"Error: Could not find input file at {input_path}")
