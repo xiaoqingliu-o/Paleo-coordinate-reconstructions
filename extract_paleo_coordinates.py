@@ -59,7 +59,7 @@ def reconstruct_paleo_coordinates(input_path, rotation_path, polygon_path, ancho
 if __name__ == '__main__':
     BASE_DIR = Path(__file__).parent
     INPUT_CSV = BASE_DIR / 'test_dataset' / 'Template_Site982.csv'
-    # Müller et al. (2008) plate model
+    # Müller et al. (2008) plate model, use anchor_plate_id=0
     #ROT_FILE = BASE_DIR / 'Plate_model_rotation_and_StaticPolygons_files' / 'muller2008' / 'Rotations' / 'Global_EarthByte_GPlates_Rotation_20100927.rot'
     #POLY_FILE = BASE_DIR / 'Plate_model_rotation_and_StaticPolygons_files' / 'muller2008' / 'StaticPolygons' / 'Global_EarthByte_GPlates_PresentDay_StaticPlatePolygons_20100927.gpml'
     # Zahirovic et al. (2022) plate model
