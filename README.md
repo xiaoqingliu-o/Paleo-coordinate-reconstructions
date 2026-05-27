@@ -37,8 +37,7 @@ plate-motion models.
 
 Plate-model files for `muller2008` and `zahirovic2022` are included in this
 repository and ready to use. If you need additional plate models, they can be
-downloaded with [**plate-model-manager**](https://gplates.github.io/plate-model-manager/latest/index.html)
-(see [Installation](#installation)).
+downloaded with [**plate-model-manager**](https://gplates.github.io/plate-model-manager/latest/index.html).
 
 ---
 
@@ -91,10 +90,10 @@ downloaded with [**plate-model-manager**](https://gplates.github.io/plate-model-
    ```bash
    conda install conda-forge::plate-model-manager
    ```
-   To download the rotation file and the StaticPolygons layer from a plate model, follow the [plate-model-manager instructions] (https://gplates.github.io/plate-model-manager/latest/basic_usages.html#download-rotation-files)
+   To download the rotation file and the StaticPolygons layer from a plate model, follow the [plate-model-manager instructions](https://gplates.github.io/plate-model-manager/latest/basic_usages.html#download-rotation-files).
   
    For available model names see the
-   [plate-model-manager documentation](https://gplates.github.io/plate-model-manager/latest/plate_models.html).
+   [plate-model-manager plate model documentation](https://gplates.github.io/plate-model-manager/latest/plate_models.html).
 
 ---
 
@@ -202,8 +201,13 @@ relevant plate model:
   <https://doi.org/10.1002/gdj3.146>
 
 
-- **Merdith et al. (2021)** *(for the paleomagnetic reference frame)*
-  Extending full-plate tectonic models into deep time: Linking the
-  Neoproterozoic and the Phanerozoic.
-  *Earth-Science Reviews*, 214, 103477.
-  <https://doi.org/10.1016/j.earscirev.2020.103477>
+- **Müller et al. (2008)**
+  Age, spreading rates, and spreading asymmetry of the world's ocean crust.
+  *Geochem. Geophys. Geosyst.*, 9, Q04006.
+  <https://doi.org/10.1029/2007GC001743>
+
+
+
+
+
+
