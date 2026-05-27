@@ -59,6 +59,10 @@ def reconstruct_paleo_coordinates(input_path, rotation_path, polygon_path, ancho
 if __name__ == '__main__':
     BASE_DIR = Path(__file__).parent
     INPUT_CSV = BASE_DIR / 'test_dataset' / 'Template_Site982.csv'
-    ROT_FILE = BASE_DIR / 'GPlates_features' / 'Rotations' / 'Zahirovic_etal_2022_CombinedRotations.rot'
-    POLY_FILE = BASE_DIR / 'GPlates_features' / 'StaticPolygons' / 'Zahirovic_etal_2022_Global_EarthByte_GPlates_PresentDay_StaticPlatePolygons.gpmlz'
+    # Müller et al. (2008) plate model
+    #ROT_FILE = BASE_DIR / 'Plate_model_rotation_and_StaticPolygons_files' / 'muller2008' / 'Rotations' / 'Global_EarthByte_GPlates_Rotation_20100927.rot'
+    #POLY_FILE = BASE_DIR / 'Plate_model_rotation_and_StaticPolygons_files' / 'muller2008' / 'StaticPolygons' / 'Global_EarthByte_GPlates_PresentDay_StaticPlatePolygons_20100927.gpml'
+    # Zahirovic et al. (2022) plate model
+    ROT_FILE = BASE_DIR / 'Plate_model_rotation_and_StaticPolygons_files' / 'zahirovic2022' / 'Rotations' / 'CombinedRotations.rot'
+    POLY_FILE = BASE_DIR / 'Plate_model_rotation_and_StaticPolygons_files' / 'zahirovic2022' / 'StaticPolygons' / 'Global_EarthByte_GPlates_PresentDay_StaticPlatePolygons.shp'
     reconstruct_paleo_coordinates(INPUT_CSV, ROT_FILE, POLY_FILE)
