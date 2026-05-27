@@ -60,7 +60,7 @@ downloaded with [**plate-model-manager**](https://gplates.github.io/plate-model-
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/Paleo-coordinate-reconstructions.git
+   git clone https://github.com/xiaoqingliu-o/Paleo-coordinate-reconstructions.git
    cd Paleo-coordinate-reconstructions
    ```
 
@@ -156,7 +156,7 @@ reconstruct_paleo_coordinates(
 Two plate models are included in this repository. Choose the one that matches
 your scientific application.
 
-### Zahirovic et al. (2022) *(default)*
+### Zahirovic et al. (2022) 
 
 Set the anchor plate ID to `701701` to use paleomagnetic reference frame. The paleomagnetic frame is tied to Earth's spin axis and is preferred for recovering accurate paleolatitudes and paleolongitudes. As the DeepMIP community 
 plans future simulations using paleogeography based on the Zahirovic et al. (2022) model, 
