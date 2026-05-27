@@ -17,7 +17,7 @@ A tool for reconstructing paleo-latitude and paleo-longitude using
 
 `muller2008/` and `zahirovic2022/` folders in `Plate_model_rotation_and_StaticPolygons_files/` were downloaded using **plate-model-manager**, which downloads and manages the plate reconstruction model files. The user guide is availbe here: https://gplates.github.io/plate-model-manager/latest/index.html
 
-Paleo-Coordinate Reconstructions uses the rotation file and StaticPolygon file. 
+Paleo-coordinate reconstructions uses the rotation file and StaticPolygon file of a plate model. 
 
 ------------------------------------------------------------------------
 
